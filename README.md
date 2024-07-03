@@ -1,2 +1,14 @@
-# Loan-repayment-ability-prediction-system
-This system was built in order to predict the repayment capacity of individuals and small and medium businesses. The system uses machine learning models to analyze borrowers' financial data and credit history and assess their ability to repay.
+# Loan Default Prediction Project
+
+This project aims to build a system for predicting loan default risk for individuals and small to medium-sized businesses using machine learning models.
+
+## Project Structure
+
+- `data/`: Contains the dataset files.
+- `models/`: Contains the trained machine learning models.
+- `src/`: Contains the source code files.
+  - `app.py`: Flask API for making predictions.
+  - `train_model.py`: Script for training and saving the model.
+  - `requirements.txt`: List of dependencies.
+- `Dockerfile`: Dockerfile for building the Docker image.
+- `README.md`: This file.
